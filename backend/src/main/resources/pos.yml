@@ -1,0 +1,10 @@
+server:
+  port: 8090
+  context-path: /pos
+spring:
+   data:
+      mongodb.host: localhost
+      mongodb.port: 27017
+      mongodb.uri: mongodb://localhost/pos
+      mongo.repositories.enabled: true
+   profiles.active: @activeProfiles@
